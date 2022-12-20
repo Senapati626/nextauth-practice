@@ -48,7 +48,7 @@ function User({session,handleSignOut}){
           </div>
 
           <div className="flex justify-center">
-            <button className='mt-5 px-10 py-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-md' onClick={handleSignOut}>Sign Out</button>
+            <button className='mt-5 px-10 py-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-md text-gray-50' onClick={handleSignOut}>Sign Out</button>
           </div>
 
           <div className='flex justify-center'>
