@@ -25,7 +25,7 @@
     height: 100px;
     background-size: contain;
     z-index: 2;
-    animation: cloud_one 25.5s ease-in 5.9s infinite;
+    /* animation: cloud_one 25.5s ease-in 5.9s infinite; */
     transform: translateX(290%);
 }
 .cloud_two{
@@ -36,7 +36,7 @@
     height: 100px;
     background-size: contain;
     z-index: 0;
-    animation: cloud_two 18.5s ease-in 0.9s infinite;
+    /* animation: cloud_two 18.5s ease-in 0.9s infinite; */
     transform: translateX(290%);
 }
 

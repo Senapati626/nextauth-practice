@@ -12,7 +12,7 @@ export default function Login(){
 
     //Google Handler
     const handleGoogleSignin = async()=>{
-        signIn('google',{callbackUrl:"http://localhost:3000/api/auth/callback/google"})
+       await signIn('google',{callbackUrl:"http://localhost:3000/api/auth/callback/google"})
     }
 
     return (
